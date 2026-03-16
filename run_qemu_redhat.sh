@@ -2,7 +2,7 @@
 
 set -e
 
-IMAGE="./images/rhel-guest-image-7.0-20140930.0.x86_64.qcow2"
+IMAGE="./images/openSUSE-Leap-15.0-JeOS.x86_64-15.0.1-kvm-and-xen-Current.qcow2"
 
 echo "== Disable cloud-init =="
 virt-customize -a "$IMAGE" --run-command "touch /etc/cloud/cloud-init.disabled"
